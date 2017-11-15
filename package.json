@@ -1,17 +1,18 @@
 {
-  "name": "spotify_joel",
-  "version": "1.0.0",
-  "description": "intento numero 1",
-  "main": "index.js",
+  "name": "proyectods2",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "joel",
-  "license": "ISC",
   "dependencies": {
-    "cookie-parser": "^1.4.3",
-    "express": "^4.16.2",
-    "querystring": "^0.2.0",
-    "request": "^2.83.0"
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "mongoose": "^4.13.2",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
   }
 }
